@@ -1,2 +1,6 @@
-language: # TODO: see http://docs.travis-ci.com for more information
+language: c
+install:
+  - git clone --depth 1 git://github.com/Araq/Nim.git; cd Nim; git clone --depth 1 git://github.com/nim-lang/csources; cd csources; sh build.sh; cd ../..
+before_script:
+  - export PATH=./Nim/bin:$PATH
 script: make
