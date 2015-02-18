@@ -1,4 +1,4 @@
-# [Kata Seeds](https://github.com/kata-seeds): [nim](http://nim-lang.org)
+# [Kata Seeds](http://kata-seeds.github.io): [nim](http://nim-lang.org)
 [![Build Status](https://travis-ci.org/kata-seeds/nim-seed.svg?branch=master)](https://travis-ci.org/kata-seeds/nim-seed)
 
 ## Getting Started
